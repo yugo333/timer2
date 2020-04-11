@@ -1,0 +1,41 @@
+body {
+  background-color: azure;
+  font-family: "Courier New", Courier, monospace;
+}
+.container {
+  margin: 24px auto;
+  padding: 16px;
+  width: 400px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+#timer {
+  font-weight: bold;
+  font-size: 40px;
+  background-color: cadetblue;
+  height: 160px;
+  line-height: 160px;
+  margin-bottom: 16px;
+}
+
+.btn {
+  width: 120px;
+  height: 48px;
+  background-color: rgb(145, 205, 207);
+  line-height: 48px;
+  user-select: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+.btn:active {
+  background-color: rgb(0, 247, 255);
+}
+
+#list {
+  display: flex;
+  justify-content: space-between;
+}
